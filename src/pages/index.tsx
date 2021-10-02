@@ -3,10 +3,10 @@ import Image from 'next/image'
 import styles from '../../styles/Home.module.css'
 
 type Props = {
-  title: string;
+  title: string
 }
 
-export default function Home({ title="React avancado!" }: Props) {
+export default function Home({ title = 'React avancado!' }: Props) {
   return (
     <div className={styles.container}>
       <Head>

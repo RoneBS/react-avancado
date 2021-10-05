@@ -19,7 +19,8 @@
   },
   "lint-staged": {
     "src/**/*": [
-      "yarn elint --fix", "yarn test --bail"
+      "yarn elint --fix",
+      "yarn test --findRelatedTests--bail"
     ]
   },
   "dependencies": {
